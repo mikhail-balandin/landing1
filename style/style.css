@@ -435,7 +435,7 @@ background-color: #FFFFFF;
     }
     .header__menu-items{
        display: block;
-       margin-top
+       width: 20%;
     }
     .header__menu-link {
         font-size: 34px;
