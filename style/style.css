@@ -327,8 +327,6 @@ footer{
     .skills__inner {
         padding-bottom: 75px;
     }
-}
-@media(max-width: 375px){
     .header__menu{
         display: none;
     }
@@ -390,31 +388,6 @@ top: 8px;
     bottom: 8px;
     transition: all ease .3s;
        }
-
-    .header__main-title{
-        font-size: 47px;
-        line-height: 58px;
-        color: #000000;
-    }
-    .container{
-        max-width: 316px;
-    }
-    .header__main-text {
-        margin-top: 65px;
-        margin-bottom: 36px;
-    }
-    .header__img{
-       height: 478px;
-    object-fit: cover;
-    object-position: center center;
-    }
-    .header__main-about {
-        font-size: 18px;
-        line-height: 22px;
-        color: #090909;
-        margin-top: 105px;
-        margin-left: 0px;
-    }
     .header__menu {
         width: 812px;
         display: block;
@@ -448,5 +421,31 @@ background-color: #FFFFFF;
     }
     body{
         overflow-x: hidden;
+    }
+}
+@media(max-width: 375px){
+    .header__main-title{
+        font-size: 47px;
+        line-height: 58px;
+        color: #000000;
+    }
+    .container{
+        max-width: 316px;
+    }
+    .header__main-text {
+        margin-top: 65px;
+        margin-bottom: 36px;
+    }
+    .header__img{
+       height: 478px;
+    object-fit: cover;
+    object-position: center center;
+    }
+    .header__main-about {
+        font-size: 18px;
+        line-height: 22px;
+        color: #090909;
+        margin-top: 105px;
+        margin-left: 0px;
     }
 }
