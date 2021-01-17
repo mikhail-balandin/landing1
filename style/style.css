@@ -2,6 +2,9 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
+body{
+        overflow-x: hidden;
+    }
 .container{
     max-width: 973px;
     padding: 0 15px;
@@ -443,8 +446,5 @@ background-color: #FFFFFF;
     }
     .header__menu-link--active{
         position: relative;
-    }
-    body{
-        overflow-x: hidden;
     }
 }
