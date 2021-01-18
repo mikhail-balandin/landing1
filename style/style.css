@@ -415,11 +415,11 @@ top: 8px;
         margin-left: 0px;
     }
     .header__menu {
-        width: 80%;
+        width: 92%;
         display: block;
         top: -100%;
         position: absolute;
-        height: 100.5%;
+        height: 92%;
         overflow-y: auto;
     }
     .header__menu.active{
