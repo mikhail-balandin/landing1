@@ -300,7 +300,7 @@ footer{
         margin-bottom: 30px;
     }
 }
-@media(max-width:500px){
+@media(max-width:577px){
     .skills__inner-items {
         flex-wrap: wrap;
     }
